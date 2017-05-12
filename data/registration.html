@@ -1,0 +1,111 @@
+<html>
+<head>
+<style type="text/css">
+    body{
+    background: #F8F8F8;
+    font: 12px "Lucida Sans Unicode", "Lucida Grande", "tahoma", Verdana, sans-serif;
+    margin: 20px;
+    }
+    div {
+position: absolute;
+color: black;
+display: none;
+}
+.buttons {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.name{
+border-radius : 4px;
+border-color : lightblue;
+height : 30px;
+}
+.city{
+ border-radius : 4px;
+border-color : lightblue;
+height : 30px;   
+}
+</style>
+<title>QA Registration Form </title>
+        <script type="text/javascript">
+        
+          function addtext()
+          {
+             var fname = document.getElementById("firstname").value;
+             var mname = document.getElementById("middlename").value;
+             var lname = document.getElementById("lastname").value;
+             var gender = document.getElementById("gender").value;
+             document.getElementById("registrationDetails").style.display = 'inline';
+             RegDetailsFName.innerHTML= fname; 
+             RegDetailsMName.innerHTML= mname; 
+             RegDetailsLName.innerHTML= lname
+             RegDetailsGender.innerHTML= gender;
+             
+          }
+
+          function hideDetails(){
+            document.getElementById("registrationDetails").style.display = 'none';
+          }
+
+          function showTextField(val){
+
+           var css = val === "Others" ? "block" : "none";
+
+           document.getElementById("othersCity").style.display = css; 
+          }
+        </script>
+</head>
+<body>
+ 
+<form>
+<table border="0" align="center">
+<tr>
+<td><h2 align="center"> QA Registration Form</h2>
+<h2><a href="https://www.google.co.in" align="left">Google</a> </h2></td>
+<td>First Name</td>
+<td>Middle Name</td>
+<td>Last Name</td>
+</tr>
+<tr>
+<td></td>
+<td><input class="name" type="textbox" id="firstname" placeholder="Enter your firstname"></input></td>
+<td><input class="name" type="textbox" id="middlename" placeholder="Enter your middle name"></input></td>
+<td><input class="name" type="textbox" id="lastname" placeholder="Enter your last name"></input></td>
+</tr>
+<tr>
+<td> Gender</td>
+<td><input class="gender" type="radio" id="male" value="Male">Male</input></td>
+<td><input class="gender" type="radio" id="female" value="Female">Female</input></td>
+<td></td>
+</tr>
+<tr>
+<td>City</td>
+<td><select class='city' id="citylist" onchange="showTextField(this.value)">
+  <option value="Ahmedabad">Ahmedabad</option>
+  <option value="Pune">Pune</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Gandhinagar">Gandhinagar</option>
+  <option value="Others">Others</option>
+</select></td>
+<td><input class="name" type="textbox" id="othersCity" style="display: none;"></input></td>
+</tr>
+<tr>
+<td></td>
+<td><input class="buttons" type="button" name="submitbtn" onclick="addtext()" value="Submit" ></input></td>
+<td><input class="buttons" type="reset" name="resetbtn" onclick="hideDetails()" value="Reset"></input></td></tr>
+</table>
+</form>
+<center>
+<div id="registrationDetails" style="display: none;">
+First Name: <span id="RegDetailsFName" align="center"></span><br>
+Middle Name: <span id="RegDetailsMName" align="center"></span><br>
+Last Name: <span id="RegDetailsLName" align="center"></span><br>
+Gender: <span id="RegDetailsGender" align="center"></span>
+</div></center>
+</html>

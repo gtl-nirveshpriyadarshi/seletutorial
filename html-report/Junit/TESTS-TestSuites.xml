@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DSK-420" id="0" name="FirstTestNGTest" package="com.training.sessionfour" skipped="0" tests="6" time="260.345" timestamp="11 Apr 2017 09:07:15 GMT">
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLoginWithWrongCredentials" time="49.963" />
+
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLoginWithWrongCredentials" time="39.612" />
+
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLoginWithWrongCredentials" time="39.223" />
+
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLogin" time="38.661" />
+
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLogout" time="46.673" />
+
+      <testcase classname="com.training.sessionfour.FirstTestNGTest" name="testLoginWithWrongCredentials" time="46.213" />
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumWDTutorial by groups]">
+  <test name="GRP-logingroup(failed)">
+    <groups>
+      <run>
+        <include name="logingroup"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.training.sessionfour.FirstTestNGTest">
+        <methods>
+          <include name="testLoginWithWrongCredentials"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.training.sessionfour.FirstTestNGTest -->
+    </classes>
+  </test> <!-- GRP-logingroup(failed) -->
+</suite> <!-- Failed suite [SeleniumWDTutorial by groups] -->

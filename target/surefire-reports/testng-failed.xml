@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test.java.FirstTestNGTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="test.java.FirstTestNGTest">
+        <methods>
+          <include name="testLogout"/>
+          <include name="afterClass"/>
+          <include name="testLogin"/>
+          <include name="testLoginWithWrongCredentials" invocation-numbers="0 1 2 3"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.java.FirstTestNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [test.java.FirstTestNGTest] -->

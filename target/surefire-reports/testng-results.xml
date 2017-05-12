@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login" duration-ms="300572" started-at="2017-04-27T07:13:00Z" finished-at="2017-04-27T07:18:01Z">
+    <groups>
+      <group name="logingroup">
+        <method signature="FirstTestNGTest.testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLogin" class="test.java.FirstTestNGTest"/>
+        <method signature="FirstTestNGTest.testLoginWithWrongCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLoginWithWrongCredentials" class="test.java.FirstTestNGTest"/>
+        <method signature="FirstTestNGTest.testLogout(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLogout" class="test.java.FirstTestNGTest"/>
+      </group> <!-- logingroup -->
+    </groups>
+    <test name="LoginTest" duration-ms="300572" started-at="2017-04-27T07:13:00Z" finished-at="2017-04-27T07:18:01Z">
+      <class name="test.java.FirstTestNGTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeClass" is-config="true" duration-ms="16" started-at="2017-04-27T12:43:00Z" finished-at="2017-04-27T12:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="55377" started-at="2017-04-27T12:43:00Z" finished-at="2017-04-27T12:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLogin" duration-ms="4505" started-at="2017-04-27T12:43:56Z" description="Verify the login with valid credentials." finished-at="2017-04-27T12:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="172" started-at="2017-04-27T12:44:00Z" finished-at="2017-04-27T12:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="27699" started-at="2017-04-27T12:44:00Z" finished-at="2017-04-27T12:44:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginWithWrongCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLoginWithWrongCredentials" duration-ms="970" started-at="2017-04-27T12:44:28Z" description="Verify the login with invalid credentials." data-provider="InValidCredentials" finished-at="2017-04-27T12:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="136" started-at="2017-04-27T12:44:29Z" finished-at="2017-04-27T12:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="30242" started-at="2017-04-27T12:44:29Z" finished-at="2017-04-27T12:44:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginWithWrongCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLoginWithWrongCredentials" duration-ms="923" started-at="2017-04-27T12:44:59Z" description="Verify the login with invalid credentials." data-provider="InValidCredentials" finished-at="2017-04-27T12:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="155" started-at="2017-04-27T12:45:00Z" finished-at="2017-04-27T12:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="50465" started-at="2017-04-27T12:45:00Z" finished-at="2017-04-27T12:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginWithWrongCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLoginWithWrongCredentials" duration-ms="962" started-at="2017-04-27T12:45:51Z" description="Verify the login with invalid credentials." data-provider="InValidCredentials" finished-at="2017-04-27T12:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="154" started-at="2017-04-27T12:45:52Z" finished-at="2017-04-27T12:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="59037" started-at="2017-04-27T12:45:52Z" finished-at="2017-04-27T12:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLoginWithWrongCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLoginWithWrongCredentials" duration-ms="394" started-at="2017-04-27T12:46:51Z" description="Verify the login with invalid credentials." data-provider="InValidCredentials" finished-at="2017-04-27T12:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TeSt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[teST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithWrongCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="184" started-at="2017-04-27T12:46:51Z" finished-at="2017-04-27T12:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="beforeMethod" is-config="true" duration-ms="61472" started-at="2017-04-27T12:46:52Z" finished-at="2017-04-27T12:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogout(java.lang.String, java.lang.String)[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="testLogout" duration-ms="7495" started-at="2017-04-27T12:47:53Z" description="Verify the logout functionality." finished-at="2017-04-27T12:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterMethod" is-config="true" duration-ms="176" started-at="2017-04-27T12:48:01Z" finished-at="2017-04-27T12:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.java.FirstTestNGTest@5f2050f6]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-04-27T12:48:01Z" finished-at="2017-04-27T12:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.java.FirstTestNGTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Login -->
+</testng-results>

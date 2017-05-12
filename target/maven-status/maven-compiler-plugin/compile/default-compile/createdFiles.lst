@@ -1,0 +1,6 @@
+com\training\sessionthree\WebElements.class
+com\training\sessionthree\webElementCommands.class
+com\training\sessiontwo\browserCommands.class
+com\training\sessiontwo\baseCommands.class
+com\training\sessionone\SettingUpSeleniumTest.class
+test\java\FirstTestNGTest.class
